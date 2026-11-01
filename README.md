@@ -1,9 +1,8 @@
 # cleep-news
 
-Public static mirror of Cleep news for **CleepDesktop** (and any external client).
+Public static feed of Cleep news for **CleepDesktop** (and any external client).
 
-Source of truth remains [cleep-backend](https://github.com/CleepDevice/cleep-backend) (admin publish).  
-This repo is updated automatically on publish / update / delete via the GitHub Contents API.
+Content is published automatically as JSON + cover images.
 
 ## Feed layout
 
@@ -14,8 +13,6 @@ This repo is updated automatically on publish / update / delete via the GitHub C
 | `covers/{slug}.{ext}` | Cover image |
 
 ## Public URL (GitHub Pages)
-
-After enabling Pages on branch `main` / root:
 
 `https://cleepdevice.github.io/cleep-news/`
 
